@@ -1,0 +1,97 @@
+body{
+    background-image: url(Images/bg.gif);
+    color: aquamarine;
+    font-size: 25px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: red;
+}
+
+.container{
+    margin: 50px 50px 50px 50px;
+}
+
+.SruPic{
+    height: 500px;
+    width: 100%;
+    background-image: url(Images/SruPic.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.SruName{
+    text-align: center;
+    text-shadow: 3px 3px black;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: lightblue;
+ 
+}
+
+.git{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    border-radius: 50%;
+    transition: width 0.25s, height 0.25s;
+}
+
+.git:hover{
+    width: 44px;
+    height: 44px; 
+}
+
+.gmail{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 110%;
+    left: 45%;
+    border-radius: 50%;
+    transition: width 0.25s, height 0.25s;
+}
+
+.gmail:hover{
+    width: 44px;
+    height: 44px; 
+}
+
+.fb{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 110%;
+    left: 55%;
+    border-radius: 50%;
+    transition: width 0.25s, height 0.25s;
+}
+
+.fb:hover{
+    width: 44px;
+    height: 44px; 
+}
+
+.flexes{
+    display: flex;
+}
+
+.card-content{
+    padding: 30px;
+    width: 50%;
+    text-align: justify;
+}
+
+.gif{
+    padding: 30px;
+    width: 50%;
+}
