@@ -36,7 +36,7 @@ h2{
  
 }
 
-.git{
+#git{
     height: 40px;
     width: 40px;
     position: absolute;
@@ -46,12 +46,12 @@ h2{
     transition: width 0.25s, height 0.25s;
 }
 
-.git:hover{
+#git:hover{
     width: 44px;
     height: 44px; 
 }
 
-.gmail{
+#gmail{
     height: 40px;
     width: 40px;
     position: absolute;
@@ -61,12 +61,12 @@ h2{
     transition: width 0.25s, height 0.25s;
 }
 
-.gmail:hover{
+#gmail:hover{
     width: 44px;
     height: 44px; 
 }
 
-.fb{
+#fb{
     height: 40px;
     width: 40px;
     position: absolute;
@@ -76,7 +76,7 @@ h2{
     transition: width 0.25s, height 0.25s;
 }
 
-.fb:hover{
+#fb:hover{
     width: 44px;
     height: 44px; 
 }
@@ -92,6 +92,65 @@ h2{
 }
 
 .gif{
+/*    margin: auto;*/
     padding: 30px;
     width: 50%;
 }
+
+#projects{
+    text-align: center;
+}
+
+.game{
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 5px 5px 20px #888888;
+    transition: width 0.25s, height 0.25s;
+}
+
+.game:hover{
+    width: 97%;
+    height: 87%;     
+}
+
+.game-card{
+    width: 50%;
+    color: aquamarine;
+    text-align: center;
+    border-radius: 5%;
+    margin: 2%;
+/*    padding: 2%;*/
+        
+/*    position: relative;*/
+/*    display: inline-block;*/
+}
+
+/*
+.description{
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px #888888;
+    padding: 12px 16px;
+    
+    width: auto;
+    min-width: 20%;
+    z-index: 1;
+}
+
+.game-card:hover .description {
+    display: block;
+}
+*/
+
+/*
+
+li{
+    text-align: center;
+    background-color: crimson;
+    width: 50%;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 6px;
+}
+*/
